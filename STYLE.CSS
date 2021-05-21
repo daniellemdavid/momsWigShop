@@ -16,12 +16,20 @@ body{
     /* display: grid; */
     /* min-height: 100vh; */
     
+<<<<<<< HEAD:STYLE.CSS
     font-family: sans-serif;
     max-width: 1800px;
     margin-right: auto;
     margin-left: auto;
     padding: 2px;
     overflow-x: hidden;
+=======
+/*     font-family: sans-serif;
+/*     max-width: 1800px; */
+/*     margin-right: auto; */
+/*     margin-left: auto; */
+/*     padding: 2px; */ */
+>>>>>>> cc45dc3aa6ca8199c2385ff4df9b9086de341497:style.css
     
 }
 
