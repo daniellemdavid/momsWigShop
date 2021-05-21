@@ -21,6 +21,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     padding: 2px;
+    overflow-x: hidden;
     
 }
 
@@ -311,6 +312,7 @@ footer{
     }
     .banner, .now-serving{
         font-size: 15px;
+        padding: 25px;
     }
     .card-title{
         font-size: 30px;
