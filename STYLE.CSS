@@ -67,15 +67,9 @@ nav{
     position: absolute;
 }
 .sub-title{
-    animation-name: subtitle;
-    animation-duration: 4s;
-}
-@keyframes subtitle {
-    from { right:0px;}
-
-    to { left:0px;}
     
 }
+
 .sub-head{
     color: var(--clr-lte-gray);
     letter-spacing: 18px;
@@ -118,13 +112,11 @@ nav{
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 100px;
-
 }
 .now-serving{
     font-size: 250px;
     font-family: niagara;
     letter-spacing: 25px;
-    
     color: var(--clr-lte-gray);
 }
 .book-now a{
@@ -317,8 +309,8 @@ footer{
         font-size: 2px !important;
         text-align: center;
     }
-    .banner{
-        font-size: 5px;
+    .banner, .now-serving{
+        font-size: 15px;
     }
     .card-title{
         font-size: 30px;
