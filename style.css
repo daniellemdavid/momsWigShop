@@ -66,6 +66,7 @@ nav{
     border-radius: 10px;
     background-color: var(--clr-neutral-gray);
 }
+
 .your-pick::after{
     content: "";
     border:solid rgba(230, 230, 230, 0.651) 1px;
@@ -73,9 +74,6 @@ nav{
     left: 30%;
     right: 30%;
     position: absolute;
-}
-.sub-title{
-    
 }
 
 .sub-head{
@@ -145,8 +143,15 @@ nav{
     padding-right: 70px;
     padding-left: 50px;
     overflow: hidden;
+    width: 50%;
+    float: left;
 
 }
+/* .card:hover{
+    width: 70%;
+    transition-duration: 3s;
+
+} */
 .card::before{
     content: "";
     top:0;
@@ -208,13 +213,14 @@ span .buy{
     bottom: 40%; */
     z-index: -1;
 
-    left: 70%;
+    left: 40%;
     top: 0;
     bottom: 0;
     border-radius: 20px;
     background-color: var(--clr-lte-org);
     opacity: .5;
 }
+
 .card-img{
     max-width: 10vw;
     float: left;
@@ -339,6 +345,9 @@ footer{
     .buy-now::before{
          left: 45%;
     }
+    .card{
+        width: 100%;
+    }
 }
 
 
@@ -391,6 +400,9 @@ footer{
     
     .buy-now::before{
         left: 10%;
+    }
+    .form div{
+        width: 100%;
     }
     
 }
