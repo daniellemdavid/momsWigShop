@@ -166,7 +166,7 @@ nav{
 .card::after{
     content: "";
     position: absolute;
-    border: solid var(--clr-neutral-gray) 2px;
+    border: dotted var(--clr-lte-org) 2px;
     background-color: var(--clr-neutral-gray);
     opacity: .7;
     z-index: -1;
@@ -226,6 +226,8 @@ span .buy{
     float: left;
     margin-right: 50px;
     z-index: 2;
+    border-radius: 15px;
+    /* border: solid var(--clr-lte-org) 2px; */
     
 }
 .contact-form{
@@ -266,6 +268,8 @@ a:hover{
 .head-imgs{
     position: relative;
     text-align: center;
+    
+    
 }
 .head-imgs::after{
     content: "";
@@ -283,12 +287,15 @@ a:hover{
     max-height: 60vh;
     margin-left: 50px;
     margin-right: 50px;
+    border-radius: 10px;
 }
 
 .img1,.img3{
     max-width: 20vw;
     max-height: 60vh;
     opacity: .4;
+    border-radius: 10px;
+    
 }
 .search-box{
     font-family: niagara;
@@ -384,6 +391,7 @@ footer{
         font-size: 30px;
         margin-left: 80px;
     }
+    
     .card-body, .buy-now{
         font-size: 20px;
     }
